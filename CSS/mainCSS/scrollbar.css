@@ -1,0 +1,16 @@
+@import "colores.css";
+/* estilos del scroll */
+body::-webkit-scrollbar {
+    width: 10px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    
+}
+body::-webkit-scrollbar-thumb {
+    background: var(--color-scroll);
+    border-radius: 5px;
+    width: 5px;
+}
+body::-webkit-scrollbar-thumb:active {
+    background: var(--color-scroll-active);
+}
+
