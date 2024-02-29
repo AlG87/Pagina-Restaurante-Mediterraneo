@@ -1,4 +1,8 @@
 @import "/CSS/index.css";
+@import "/CSS/mainCSS/footer.css";
+@import "/CSS/mainCSS/colores.css";
+@import "/CSS/mainCSS/header.css";
+@import "/CSS/mainCSS/scrollbar.css";
 
 main{
     padding-top: 30px;
