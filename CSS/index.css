@@ -38,7 +38,7 @@ section{
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.59);
     height: 30px;
 }
-button:hover{
+.boton-ver-receta:hover{ /*button*/
     cursor: pointer;
     transform: scale(1.2);
 }
@@ -98,4 +98,56 @@ button:hover{
     display: flex;
     align-items: center;
 }
-
+@media (max-width: 991.98px) { 
+    .plato-1{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .contenedor-contenido{
+        text-align: center;
+    }
+    .plato-2{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .contenedor-eslogan{
+        width: 300px;
+    }
+}
+@media (max-width: 767.98px) { 
+    .contenedor-platos{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .contenedor-menu{
+        height: 1000px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+    .contenedor-menu h2{
+        padding-top: 0 ;
+    }
+    .container-boton-receta-menu{
+        position: relative;
+        bottom: -40px;
+    }
+    .contenedor-eslogan{
+        width: 200px;
+    }
+    .plato-promocional-img{
+        height: 300px;
+    }
+}
+@media (max-width: 575.98px) {
+    .empresa-info{
+        flex-direction: column;
+    }
+    .contenedor-eslogan{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+    }
+}
