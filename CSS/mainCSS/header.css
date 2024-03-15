@@ -5,7 +5,6 @@
     padding: 0;
     font-family: sans-serif;
 }
-
 header{
     position: sticky;
     top: 0;
@@ -14,13 +13,13 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 85px;
-    padding: 5px 10%;
+    /* padding: 5px 10%; */
     
 }
 
 header .logo{
     cursor: pointer;
-
+    margin-left: 100px;
 }
 header .logo img{
     height: 80px;
@@ -79,17 +78,103 @@ nav ul li:hover{
     }
 
 }
-
+.boton_menu{
+    display: none;
+}
 .boton-contacto{
-
+    
     border: none;
     width: 90px;
     height: 30px;
     border-radius: 5px;
-    
+    margin-right: 150px;
     transition: all 0.3s;
 }
 .boton-contacto:hover{
     cursor: pointer;
     transform: scale(1.2);
 }
+
+@media  screen and (max-width:1400px) {
+    nav ul{
+        left: 45%;
+    }
+}
+@media  screen and (max-width:1200px) {
+    nav ul{
+        left: 30%;
+    }
+}
+@media  screen and (max-width:992px) {
+    nav ul{
+        left: 10%;
+    }
+}
+@media  screen and (max-width:768px) {
+    nav ul{
+        left: 0;
+    }
+    header .logo{
+        margin-left: 50px;
+    }
+}
+/* media query para el mobile */
+@media  screen and (max-width:576px) {
+    .boton_menu{
+        display: block;
+        height: 50px;
+        cursor: pointer;
+        width: 50px;
+        border: none;
+        background: none;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+    nav{
+        
+        position: fixed;
+        text-align: center;
+        background-color: var(--color-3);
+        top: 85px;
+        left: 100%;
+        height: calc(100vh - 85px);
+        width: 100%;
+    }
+    nav ul{
+        left: 100%;
+        position: fixed;
+        flex-direction: column;
+        text-align: center;
+        height: calc(100vh - 85px);
+        justify-content: space-around;
+        gap: 0;
+        padding: 0;
+        width: 100vw;
+        
+    }
+    nav ul li{
+        background-color: transparent;
+        border-bottom: black solid 2px;
+        border-top: black solid 2px;
+        border-radius: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+    nav ul li a{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .boton-contacto{
+        display: none;
+    }
+    .menu-toggle{
+        left: 0;
+    }
+}
+
