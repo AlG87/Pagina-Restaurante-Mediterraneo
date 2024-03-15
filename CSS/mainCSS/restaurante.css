@@ -1,0 +1,53 @@
+@import "/CSS/index.css";
+@import "/CSS/mainCSS/footer.css";
+@import "/CSS/mainCSS/colores.css";
+@import "/CSS/mainCSS/header.css";
+@import "/CSS/mainCSS/scrollbar.css";
+
+main{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--color-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px    ;
+
+}
+
+
+.Direccion{
+    padding: 100px;    
+    height: 450px;
+    width: 95%;
+    border-radius: 5px;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+
+.Direccion div{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+
+}
+.Direccion p{
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.Direccion img{
+    width: auto;
+    height: 250px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}

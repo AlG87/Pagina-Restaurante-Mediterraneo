@@ -36,9 +36,10 @@ header nav{
 nav ul{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 10px;
     position: relative;
-    left: 70%;
+    left: 40%;
     list-style: none;
     padding: 10px;
 
