@@ -1,5 +1,6 @@
 const platos = [
     {
+        id: "humus-con-pan-pita",
         nombre: "Hummus con pan pita",
         ingredientes: [
             "570 g de garbanzos cocidos",
@@ -22,6 +23,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"tzatziki-con-rodajas-de-pepino",
         nombre:"Tzatziki con rodajas de pepino",
         ingredientes:[
             "6 pepinos",
@@ -41,6 +43,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"tabule",
         nombre:"Tabule",
         ingredientes:[
             "1 cebolla grande",
@@ -55,6 +58,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"falafel",
         nombre:"Falafel",
         ingredientes:[
             "1 Libra garbanzos",
@@ -83,6 +87,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"aceitunas-marinadas",
         nombre:"Aceitunas marinadas",
         ingredientes:[
             "Aceitunas ",
@@ -101,6 +106,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"ensalada-griega",
         nombre:"Ensalada Griega",
         ingredientes:[
             "1 Tomate",
@@ -120,6 +126,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"paella-de-mariscos",
         nombre:"Paella de Mariscos",
         ingredientes:[
             "400 g de Arroz Vaporizado de Grano Medio: Ideal para Paella Mahatma®",
@@ -151,6 +158,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"lasaña-de-berenjenas",
         nombre:"Lasaña de Berenjenas",
         ingredientes:[
             "2 berenjenas grandes",
@@ -189,6 +197,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"hummus",
         nombre:"Hummus",
         ingredientes:[
             "1 lata (400 g) de garbanzos cocidos, escurridos y enjuagados",
@@ -211,6 +220,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"cuscus-con-verduras",
         nombre:"Cuscús con Verduras",
         ingredientes:[
             "1 taza de cuscús",
@@ -247,6 +257,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"ratatouille",
         nombre:"Ratatouille",
         ingredientes:[
             "1 berenjena grande",
@@ -278,6 +289,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"brochetas-de-pollo-con-salsa-de-yogur",
         nombre:"Brochetas de Pollo con Salsa de Yogur",
         ingredientes:[
             "500 g de pechuga de pollo, cortada en trozos",
@@ -314,6 +326,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"gazpacho",
         nombre:"Gazpacho",
         ingredientes:[
             "6 tomates maduros",
@@ -347,6 +360,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"tzatziki",
         nombre:"Tzatziki",
         ingredientes:[
            "1 pepino grande, pelado y rallado",
@@ -371,6 +385,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"baba-ganoush",
         nombre:"Baba Ganoush",
         ingredientes:[
             "2 berenjenas grandes",
@@ -399,6 +414,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"pescado-al-horno-con-hierbas",
         nombre:"Pescado al Horno con Hierbas",
         ingredientes:[
             "Filetes de pescado (lomo de salmón, filete de lubina, filete de merluza, etc)",
@@ -424,6 +440,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"arroz-con-pollo-al-estilo-mediterraneo",
         nombre:"Arroz con Pollo al Estilo Mediterráneo",
         ingredientes:[
             "4 muslos de pollo (con hueso y piel)",
@@ -458,6 +475,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"",
         nombre:"",
         ingredientes:[
 
@@ -466,6 +484,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"",
         nombre:"",
         ingredientes:[
 
@@ -474,6 +493,7 @@ const platos = [
         precio: 0
     },
     {
+        id:"",
         nombre:"",
         ingredientes:[
 
