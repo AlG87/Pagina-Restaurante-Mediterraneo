@@ -1,0 +1,28 @@
+main{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor{
+    width: 95%;
+    margin: 40px;
+    height: 800px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-plato-container img{
+    min-height: 500px;
+}
+.info-plato{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+}
+.info-plato span{
+    height: 300px;
+    width: 250px;
+}

@@ -1,4 +1,4 @@
-const platos = [
+export const platos = [
     {
         id: "humus-con-pan-pita",
         nombre: "Hummus con pan pita",
@@ -503,7 +503,3 @@ const platos = [
     },
 
 ]
-
-
-
-
