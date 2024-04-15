@@ -158,7 +158,7 @@ export const platos = [
         precio: 50000
     },
     {
-        id:"lasaña-de-berenjenas",
+        id:"lasagna-de-berenjenas",
         nombre:"Lasaña de Berenjenas",
         ingredientes:[
             "2 berenjenas grandes",
