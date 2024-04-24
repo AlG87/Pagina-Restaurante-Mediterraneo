@@ -27,6 +27,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    gap: 80px;
     
 }
 .boton-ver-receta{
@@ -90,7 +91,7 @@ section{
     justify-content: space-evenly;
 }
 .contenedor-info-empresa img{
-    height: 300px;
+    height: 250px;
 }
 .contenedor-eslogan{
     height: 350px;
@@ -113,6 +114,9 @@ section{
     .contenedor-eslogan{
         width: 300px;
     }
+    /* .contenedor-info-empresa img{
+        height: 200px;
+    } */
 }
 @media (max-width: 767.98px) { 
     .contenedor-platos{
@@ -140,6 +144,9 @@ section{
     .plato-promocional-img{
         height: 300px;
     }
+    /* .contenedor-info-empresa img{
+        height: 150px;
+    } */
 }
 @media (max-width: 575.98px) {
     .empresa-info{
