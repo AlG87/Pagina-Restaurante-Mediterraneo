@@ -2,6 +2,10 @@ export const platos = [
     {
         id: "humus-con-pan-pita",
         nombre: "Hummus con pan pita",
+        descripcion: `es un plato delicioso y saludable originario de Oriente Medio que ha ganado popularidad en todo el mundo. 
+         en una mezcla cremosa de puré de garbanzos cocidos, tahini (pasta de semillas de sésamo), jugo de limón, ajo, sal y aceite de oliva. 
+         Esta mezcla se sirve tradicionalmente con pan pita, que es un pan de forma redonda y delgada, 
+         horneado para que quede esponjoso por dentro y crujiente por fuera.`,
         ingredientes: [
             "570 g de garbanzos cocidos",
             "1 cucharada de tahina",
@@ -20,11 +24,13 @@ export const platos = [
                      Salpimentamos al gusto y colocamos en un bol de servir. 
                      Decoramos con pimentón dulce. A continuación, cortamos el pan pita en triángulos y lo cubrimos de mantequilla y sal. 
                      Por último, horneamos el pan hasta que esté dorado. Servimos el hummus con el pan de pita caliente.`,
-        precio: 40000
+        precio: "40.000 "
     },
     {
         id:"tzatziki-con-rodajas-de-pepino",
         nombre:"Tzatziki con rodajas de pepino",
+        descripcion: `un clásico y refrescante plato griego que combina yogur cremoso con pepino fresco, ajo picado, eneldo y unas gotas de jugo de limón. 
+        Es una salsa o aderezo versátil y delicioso que se sirve frío y se utiliza como acompañamiento para una variedad de platos mediterráneos.`,
         ingredientes:[
             "6 pepinos",
             "4 dientes ajo",
@@ -40,11 +46,14 @@ export const platos = [
                      Mezcla el yogur con el zumo de limón, el aceite de oliva prensado en frío, el ajo, menta al gusto y sal de Himalaya. 
                      Tritura con la batidora hasta obtener una crema fina. Seca las rodajas de peino en un trapo de cocina bien limpio. 
                      Reparte las rodajas en cuatro platos y vierte la salsa tzatziki en cuatro boles pequeños. Adorna con menta y sirve bien frío.`,
-        precio: 35000
+        precio: "35.000 "
     },
     {
         id:"tabule",
         nombre:"Tabule",
+        descripcion: `Esta ensalada es perfecta como acompañamiento para platos de carne o pescado,
+         o como plato principal para una comida ligera y saludable. Su combinación de ingredientes frescos y sabrosos la convierte en una opción popular en todo el mundo, 
+        especialmente durante los meses más cálidos.`,
         ingredientes:[
             "1 cebolla grande",
             "1 taza perejil",
@@ -55,11 +64,13 @@ export const platos = [
         ],
         preparacion:`Poner el 1/2 taza trigo en bastante agua por 30 minutos y escurrir súper bien con una cuchara
                      Poner la cebolla con el Limón 10 minutos luego agregar el resto de los ingredientes`,
-        precio: 63000 
+        precio: "63.000 "
     },
     {
         id:"falafel",
         nombre:"Falafel",
+        descripcion: `una opción vegetariana rica en proteínas y fibra, lo que lo convierte en una opción popular para aquellos que siguen dietas basadas en plantas.
+         Su sabor único y su textura crujiente lo hacen irresistible.`,
         ingredientes:[
             "1 Libra garbanzos",
             "1 Cebolla blanca",
@@ -84,11 +95,14 @@ export const platos = [
                      Retirar de la nevera y volver a amasar y armar los falafel del tamaño qué tú desees, pasarlos por el pan rallado Y llevar otros 20 minutos más a la nevera.
                      Sacar de la nevera y freír en abundante aceite en candela medio baja para qué se cocine. Bien.
                      La salsa pica bien el pepino pero sin sus semillas tritura bien el ajo y revuelve con el cilantro con un poco de perejil y revuelve con el yogurt. Adicionar con el limón. Y pimienta a tu gusto.`,
-        precio: 28000
+        precio: "28.000 "
     },
     {
         id:"aceitunas-marinadas",
         nombre:"Aceitunas marinadas",
+        descripcion: `pueden tener una amplia gama de sabores dependiendo de los ingredientes utilizados en la marinada. 
+        Algunas variedades pueden ser más herbales, con hierbas como el romero, el tomillo o el orégano, mientras que otras pueden ser más picantes con la adición de chiles o pimientos.
+         Además, el ajo añade un sabor aromático y terroso,mientras que los cítricos agregan un toque fresco y ácido.`,
         ingredientes:[
             "Aceitunas ",
             "1 limón",
@@ -103,11 +117,13 @@ export const platos = [
         preparacion:`Transfiera las aceitunas a un plato de servir mediano, deje a un lado.
                      Con un pelador de verduras, quite la mitad de la cáscara del limón (sólo la superficie). Luego añada a un sartén pequeño y a fuego medio, la ralladura de limón, el aceite de oliva, el vinagre de jerez, el ajo, el tomillo, el laurel y la pimienta roja triturada. Cocine, revolviendo ocasionalmente, hasta que el aceite comience a hervir, por unos 5 minutos. Vierta la mezcla de aceite caliente sobre las aceitunas y revuelva para mezclar. Deje que las aceitunas se enfríen a temperatura ambiente. Cubra y refrigere por lo menos 2 horas, o hasta 5 días.
                      Si lo desea, agregue y revuelva las almendras en la mezcla de aceitunas, sirva a temperatura ambiente.`,
-        precio: 31000
+        precio: "31.000 "
     },
     {
         id:"ensalada-griega",
         nombre:"Ensalada Griega",
+        descripcion:`una fresca y deliciosa ensalada tradicional de la cocina griega.
+         Se caracteriza por su simplicidad y la combinación de ingredientes frescos y sabrosos típicos de la región mediterránea.`,
         ingredientes:[
             "1 Tomate",
             "1 Pepino",
@@ -123,11 +139,13 @@ export const platos = [
                      Si usas unas buenas olivas de Kalamata o, en versión nacional, unas de Aragón, mejor que mejor.
                      En cuanto al corte, la clave para lograr una ensalada griega está en el término medio. No hay que cortar ni tan fino como suelen picar las verduras los árabes, ni tan grueso como tenemos costumbre por estos lares. Dados de tomate y pepino y tiras medianas de cebolla y pepino sería lo ideal
                      Una vez hemos cortado el tomate, el pepino, el pimiento y la cebolla, lo mezclamos todo bien en un bol, con un poco de sal y un chorro abundante de aceite de oliva. Después añadimos las olivas y rematamos con el queso feta cortado en dados. Espolvoreamos un poco de orégano, tal vez algo de limón y a disfrutar perpetrados con un buen trozo de pan`,
-        precio: 46000
+        precio: "26.900"
     },
     {
         id:"paella-de-mariscos",
         nombre:"Paella de Mariscos",
+        descripcion:`plato tradicional español originario de la región de Valencia, pero popularizado en todo el país y más allá.
+         Se trata de un arroz cocinado con una mezcla de mariscos, que pueden incluir gambas, langostinos, mejillones, calamares, almejas y cualquier otro marisco disponible. Suele llevar también ingredientes como tomate, pimiento, azafrán y otras especias que le dan un sabor característico y delicioso. `,
         ingredientes:[
             "400 g de Arroz Vaporizado de Grano Medio: Ideal para Paella Mahatma®",
             "1 pimiento rojo, cortado en tiras",
@@ -155,11 +173,13 @@ export const platos = [
                      Por último, reduzca el fuego y continúe cocinando el arroz hasta que absorba el líquido (aproximadamente durante 14 minutos).
                      Si considera que es necesario, puede agregar más líquido.
                      Una vez que la paella esté lista y se haya evaporado todo el líquido, deje que repose durante unos minutos más antes de servirla y disfrutarla.`,
-        precio: 50000
+        precio: "50.000 "
     },
     {
         id:"lasagna-de-berenjenas",
         nombre:"Lasaña de Berenjenas",
+        descripcion:` perfecta para aquellos que prefieren evitar los carbohidratos o desean agregar más vegetales a su dieta. 
+         Luego, se hornea hasta que esté burbujeante y dorada. Es una opción sabrosa y nutritiva que combina la cremosidad del queso con el sabor suave y ahumado de la berenjena.`,
         ingredientes:[
             "2 berenjenas grandes",
             "400 g de salsa de tomate",
@@ -194,11 +214,13 @@ export const platos = [
                      Retira el papel de aluminio y hornea por otros 10-15 minutos, o hasta que la lasaña esté burbujeante y dorada en la parte superior.
                      Retira del horno y deja reposar durante unos minutos antes de cortarla en porciones. 
                      Decora con hojas de albahaca fresca y sirve caliente.`,
-        precio: 70000 
+        precio: "70.000 "
     },
     {
         id:"hummus",
         nombre:"Hummus",
+        descripcion:` opción saludable y nutritiva, rica en proteínas, fibra y grasas saludables,
+         además de estar llena de sabor gracias a las especias y hierbas que se le pueden añadir según el gusto personal.`,
         ingredientes:[
             "1 lata (400 g) de garbanzos cocidos, escurridos y enjuagados",
             "1/4 taza de tahini (pasta de sésamo)",
@@ -217,11 +239,13 @@ export const platos = [
                      Transfiere el hummus a un plato para servir o a un tazón y haz un pequeño hueco en el centro con la parte posterior de una cuchara.
                      Rocía un poco de aceite de oliva virgen extra sobre el hummus y espolvorea con pimentón dulce para decorar.
                      Sirve el hummus con pan de pita, crudités de verduras frescas, galletas o cualquier otro acompañamiento de tu elección.`,
-        precio: 20000 
+        precio: "20.000 "
     },
     {
         id:"cuscus-con-verduras",
         nombre:"Cuscús con Verduras",
+        descripcion:`opción saludable y nutritiva, rica en proteínas, fibra y grasas saludables,
+         además de estar llena de sabor gracias a las especias y hierbas que se le pueden añadir según el gusto personal.`,
         ingredientes:[
             "1 taza de cuscús",
             "1 taza de caldo de verduras o agua caliente",
@@ -254,11 +278,12 @@ export const platos = [
                      Prueba y ajusta el condimento según sea necesario.
                      Sirve el cuscús con verduras caliente como plato principal o acompañamiento. 
                      Si lo deseas, decora con perejil fresco picado antes de servir.`,
-        precio: 30000 
+        precio: "30.000 "
     },
     {
         id:"ratatouille",
         nombre:"Ratatouille",
+        descripcion:`Se trata de un guiso vegetariano compuesto principalmente de verduras de temporada, como berenjenas, calabacines, pimientos, tomates y cebollas, cocidas lentamente en aceite de oliva y sazonadas con hierbas provenzales como tomillo, orégano y albahaca.`,
         ingredientes:[
             "1 berenjena grande",
             "2 calabacines medianos",
@@ -286,11 +311,12 @@ export const platos = [
                      Cubre la fuente para hornear con papel de aluminio y hornea en el horno precalentado durante aproximadamente 45 minutos, o hasta que las verduras estén tiernas.
                      Una vez que las verduras estén cocidas, retira el papel de aluminio y hornea por otros 10-15 minutos para que las verduras se doren ligeramente en la parte superior.
                      Retira del horno y deja reposar durante unos minutos antes de servir.`,
-        precio: 120000
+        precio: "120.000 "
     },
     {
         id:"brochetas-de-pollo-con-salsa-de-yogur",
         nombre:"Brochetas de Pollo con Salsa de Yogur",
+        descripcion:`deliciosa opción de plato principal o aperitivo que combina sabores frescos y vibrantes con una presentación atractiva. `,
         ingredientes:[
             "500 g de pechuga de pollo, cortada en trozos",
             "1 pimiento rojo, cortado en trozos",
@@ -323,11 +349,12 @@ export const platos = [
                      Mientras se cocinan las brochetas, prepara la salsa de yogur. 
                      En un tazón pequeño, mezcla el yogur, el ajo machacado, el jugo de limón, la menta picada y el cilantro. 
                      Condimenta con sal y pimienta al gusto.`,
-        precio: 45000
+        precio: "45.000 "
     },
     {
         id:"gazpacho",
         nombre:"Gazpacho",
+        descripcion:`deliciosa manera de disfrutar de una gran variedad de verduras frescas y es una excelente fuente de vitaminas, minerales y antioxidantes.  `,
         ingredientes:[
             "6 tomates maduros",
             "1 pepino",
@@ -357,11 +384,12 @@ export const platos = [
                      El gazpacho está mejor cuando se sirve bien frío.
                      Sirve el gazpacho en cuencos individuales o vasos. 
                      Puedes decorar con trozos pequeños de pepino, pimiento o cebolla, y un chorrito adicional de aceite de oliva `,
-        precio: 17000 
+        precio: "17.000 "
     },
     {
         id:"tzatziki",
         nombre:"Tzatziki",
+        descripcion:`conocido por su sabor refrescante y su textura cremosa, lo que lo convierte en el acompañamiento perfecto para platos griegos como gyros, souvlaki o falafel. También se puede servir como dip para verduras crudas o pan pita, o como aderezo para ensaladas. `,
         ingredientes:[
            "1 pepino grande, pelado y rallado",
            "1-2 dientes de ajo, picados finamente",
@@ -382,11 +410,13 @@ export const platos = [
                      Prueba la salsa y ajusta el condimento con sal y pimienta al gusto.
                      Cubre el tazón con film transparente y refrigera el Tzatziki durante al menos 1 hora antes de servirlo. 
                      Esto permite que los sabores se mezclen y se intensifiquen.`,
-        precio: 66000 
+        precio: "66.000 "
     },
     {
         id:"baba-ganoush",
         nombre:"Baba Ganoush",
+        descripcion:`conocido por su sabor ahumado y su textura sedosa.
+         Se sirve comúnmente como aperitivo o acompañamiento, untado en pan pita o acompañado de vegetales crudos. `,
         ingredientes:[
             "2 berenjenas grandes",
             "2 dientes de ajo, picados",
@@ -411,11 +441,13 @@ export const platos = [
                      Prueba y ajusta el condimento según sea necesario.
                      Transfiere el Baba Ganoush a un plato para servir y alísalo con una cuchara. 
                      Si lo deseas, puedes decorar con un chorrito de aceite de oliva, perejil fresco picado y semillas de sésamo tostadas.`,
-        precio: 90000 
+        precio: "90.000 "
     },
     {
         id:"pescado-al-horno-con-hierbas",
         nombre:"Pescado al Horno con Hierbas",
+        descripcion:`opción versátil que se puede adaptar a tus gustos personales y a los ingredientes disponibles. 
+        Es una excelente manera de incorporar pescado a tu dieta de manera saludable y deliciosa.`,
         ingredientes:[
             "Filetes de pescado (lomo de salmón, filete de lubina, filete de merluza, etc)",
             "Zumo de limón",
@@ -437,11 +469,13 @@ export const platos = [
                      Hornea el pescado en el horno precalentado durante unos 12-15 minutos, o hasta que esté cocido y se desmenuce fácilmente con un tenedor. 
                      El tiempo de cocción puede variar según el grosor de los filetes y el tipo de pescado utilizado, así que asegúrate de revisarlo periódicamente para evitar que se cocine demasiado.
                      Una vez que el pescado esté listo, retíralo del horno y sírvelo caliente. `,
-        precio: 41000
+        precio: "50.000"
     },
     {
         id:"arroz-con-pollo-al-estilo-mediterraneo",
         nombre:"Arroz con Pollo al Estilo Mediterráneo",
+        descripcion:`jugoso pollo acompañado de arroz, aromatizado con hierbas frescas y especias seleccionadas.
+         Una experiencia culinaria que te transporta directamente a las soleadas costas del Mediterráneo con cada bocado.`,
         ingredientes:[
             "4 muslos de pollo (con hueso y piel)",
             "2 tazas de arroz de grano largo",
@@ -472,11 +506,13 @@ export const platos = [
                      Cubre la sartén con una tapa o papel de aluminio y transfiérela al horno precalentado.
                      Hornea durante unos 25-30 minutos, o hasta que el pollo esté cocido y el arroz esté tierno y haya absorbido todo el líquido.
                      Una vez que esté listo, retira la sartén del horno y deja reposar durante unos minutos antes de servir.`,
-        precio: 30000 
+        precio: "30.000 "
     },
     {
         id:"moussaka",
-        nombre:"Moussaka",
+        nombre:"moussaka",
+        descripcion:`Esta deliciosa cazuela consiste en capas de berenjenas rebanadas, carne picada (generalmente de cordero o ternera), tomates, cebollas 
+        y a menudo papas, todo ello cubierto con una rica bechamel y horneado hasta que esté dorado y burbujeante.`,
         ingredientes:[
             "berenjenas grandes",
             "Sal",
@@ -493,25 +529,26 @@ export const platos = [
             "500 ml de leche",
             "Sal, pimienta y nuez moscada al gusto"
         ],
-        preparacion:`Precalienta el horno a 200°C (390°F).
-                     Corta las berenjenas en rodajas de aproximadamente 1 cm de grosor. Espolvorea sal sobre las rodajas de berenjena y déjalas reposar durante unos 30 minutos para que suden y pierdan su amargor. Luego, enjuágalas bajo agua fría y sécalas con papel de cocina.      
-                     Coloca las rodajas de berenjena en una bandeja para hornear previamente engrasada con aceite de oliva. Pincela cada rodaja con un poco más de aceite de oliva y hornéalas durante unos 20-25 minutos o hasta que estén doradas y tiernas. Retira del horno y reduce la temperatura a 180°C (350°F).
-                     Mientras las berenjenas se están horneando, prepara la carne. En una sartén grande, calienta un poco de aceite de oliva a fuego medio-alto. Agrega la cebolla picada y el ajo, y cocina hasta que estén dorados y fragantes.
-                     Agrega la carne picada a la sartén y cocina hasta que esté bien dorada y cocida.
-                     Agrega los tomates triturados, la canela, el orégano, la sal y la pimienta a la sartén. Cocina a fuego lento durante unos 10-15 minutos, revolviendo ocasionalmente, hasta que la salsa espese ligeramente. Retira del fuego y reserva.
-                     Mientras tanto, prepara la salsa bechamel. En una cacerola, derrite la mantequilla a fuego medio. Agrega la harina y revuelve constantemente durante 1-2 minutos para formar un roux.
-                     Poco a poco, agrega la leche caliente mientras revuelves constantemente para evitar la formación de grumos. Continúa cocinando y revolviendo hasta que la salsa se espese y tenga una consistencia suave y cremosa.
-                     Retira la salsa bechamel del fuego y sazona con sal, pimienta y nuez moscada al gusto. Si lo deseas, puedes batir un huevo y agregarlo a la salsa bechamel para hacerla aún más cremosa (este paso es opcional).
-                     Ahora es el momento de armar la moussaka. En un molde para horno engrasado, coloca una capa de rodajas de berenjena asada en el fondo. Luego, agrega una capa de la mezcla de carne sobre las berenjenas. Repite estas capas hasta que todos los ingredientes estén usados, terminando con una capa de berenjena.
-                     Vierte la salsa bechamel sobre la capa superior de berenjena, asegurándote de cubrir toda la superficie.
-                     Hornea la moussaka en el horno precalentado a 180°C (350°F) durante unos 45-50 minutos o hasta que esté dorada y burbujeante en la parte superior.
-                     Retira del horno y deja reposar durante unos minutos antes de servir.
-        `,
-        precio: 12000 
+        preparacion:`
+        Precalienta el horno a 200°C (390°F).
+        Corta las berenjenas en rodajas de aproximadamente 1 cm de grosor. Espolvorea sal sobre las rodajas de berenjena y déjalas reposar durante unos 30 minutos para que suden y pierdan su amargor. Luego, enjuágalas bajo agua fría y sécalas con papel de cocina.      
+        Coloca las rodajas de berenjena en una bandeja para hornear previamente engrasada con aceite de oliva. Pincela cada rodaja con un poco más de aceite de oliva y hornéalas durante unos 20-25 minutos o hasta que estén doradas y tiernas. Retira del horno y reduce la temperatura a 180°C (350°F).
+        Mientras las berenjenas se están horneando, prepara la carne. En una sartén grande, calienta un poco de aceite de oliva a fuego medio-alto. Agrega la cebolla picada y el ajo, y cocina hasta que estén dorados y fragantes.
+        Agrega la carne picada a la sartén y cocina hasta que esté bien dorada y cocida.
+        Agrega los tomates triturados, la canela, el orégano, la sal y la pimienta a la sartén. Cocina a fuego lento durante unos 10-15 minutos, revolviendo ocasionalmente, hasta que la salsa espese ligeramente. Retira del fuego y reserva.
+        Mientras tanto, prepara la salsa bechamel. En una cacerola, derrite la mantequilla a fuego medio. Agrega la harina y revuelve constantemente durante 1-2 minutos para formar un roux.
+        Poco a poco, agrega la leche caliente mientras revuelves constantemente para evitar la formación de grumos. Continúa cocinando y revolviendo hasta que la salsa se espese y tenga una consistencia suave y cremosa.
+        Retira la salsa bechamel del fuego y sazona con sal, pimienta y nuez moscada al gusto. Si lo deseas, puedes batir un huevo y agregarlo a la salsa bechamel para hacerla aún más cremosa (este paso es opcional).
+        Ahora es el momento de armar la moussaka. En un molde para horno engrasado, coloca una capa de rodajas de berenjena asada en el fondo. Luego, agrega una capa de la mezcla de carne sobre las berenjenas. Repite estas capas hasta que todos los ingredientes estén usados, terminando con una capa de berenjena.
+        Vierte la salsa bechamel sobre la capa superior de berenjena, asegurándote de cubrir toda la superficie.
+        Hornea la moussaka en el horno precalentado a 180°C (350°F) durante unos 45-50 minutos o hasta que esté dorada y burbujeante en la parte superior.
+        Retira del horno y deja reposar durante unos minutos antes de servir.`,
+        precio: "12.000 "
     },
     {
         id:"falafel-con-salsa-de-yogurt",
-        nombre:"Falafel con salsa de yogurt",
+        nombre:"falafel con salsa de yogurt",
+        descripcion:'Juntos, el falafel y la salsa de yogur crean un plato delicioso y satisfactorio que se puede disfrutar como aperitivo, en un plato principal o en un sándwich envuelto en pan pita con verduras frescas y más salsa de yogur',
         ingredientes:[
             "1 taza de garbanzos secos",
             "1 cebolla grande, picada",
@@ -532,20 +569,22 @@ export const platos = [
             "Sal y pimienta al gusto",
             "Perejil fresco picado, para decorar (opcional)"
         ],
-        preparacion:`Remoja los garbanzos secos en agua durante al menos 8 horas o durante la noche. Después, escúrrelos y enjuágalos.         
-                     En un procesador de alimentos, agrega los garbanzos remojados y escurridos, la cebolla, el ajo, el perejil, el cilantro, el comino, el cilantro molido, la pimienta de cayena, la sal y la pimienta negra. Procesa hasta obtener una mezcla homogénea pero ligeramente gruesa.
-                     Transfiere la mezcla a un tazón y agrega la harina de garbanzo y el polvo de hornear. Mezcla bien.
-                     Con las manos, forma pequeñas bolas de masa del tamaño de una nuez y luego aplánalas ligeramente para formar discos.
-                     Coloca los falafel formados en una bandeja y refrigéralos durante al menos 30 minutos.
-                     En un tazón, mezcla el yogur griego, el ajo picado, el jugo de limón, el aceite de oliva y el tahini (si lo estás utilizando). Condimenta con sal y pimienta al gusto. Mezcla bien hasta que todos los ingredientes estén combinados. Refrigera hasta que estés listo para servir.
-                     Calienta abundante aceite vegetal en una sartén grande a fuego medio-alto. Cuando el aceite esté caliente pero no humeante, agrega los falafel, asegurándote de no sobrecargar la sartén.
-                     Fríe los falafel durante 2-3 minutos por cada lado, o hasta que estén dorados y crujientes.
-                     Retira los falafel fritos del aceite y colócalos sobre papel absorbente para eliminar el exceso de aceite.`,
-        precio: 88000
+        preparacion:`
+        Remoja los garbanzos secos en agua durante al menos 8 horas o durante la noche. Después, escúrrelos y enjuágalos.         
+        En un procesador de alimentos, agrega los garbanzos remojados y escurridos, la cebolla, el ajo, el perejil, el cilantro, el comino, el cilantro molido, la pimienta de cayena, la sal y la pimienta negra. Procesa hasta obtener una mezcla homogénea pero ligeramente gruesa.
+        Transfiere la mezcla a un tazón y agrega la harina de garbanzo y el polvo de hornear. Mezcla bien.
+        Con las manos, forma pequeñas bolas de masa del tamaño de una nuez y luego aplánalas ligeramente para formar discos.
+        Coloca los falafel formados en una bandeja y refrigéralos durante al menos 30 minutos.
+        En un tazón, mezcla el yogur griego, el ajo picado, el jugo de limón, el aceite de oliva y el tahini (si lo estás utilizando). Condimenta con sal y pimienta al gusto. Mezcla bien hasta que todos los ingredientes estén combinados. Refrigera hasta que estés listo para servir.
+        Calienta abundante aceite vegetal en una sartén grande a fuego medio-alto. Cuando el aceite esté caliente pero no humeante, agrega los falafel, asegurándote de no sobrecargar la sartén.
+        Fríe los falafel durante 2-3 minutos por cada lado, o hasta que estén dorados y crujientes.
+        Retira los falafel fritos del aceite y colócalos sobre papel absorbente para eliminar el exceso de aceite.`,
+        precio: "88.000 "
     },
     {
-        id:"calamares-a-la-Romana",
+        id:"Calamares-a-la-Romana",
         nombre:"Calamares a la Romana",
+        descripcion:'clásico de la cocina italiana, conocido por su simplicidad y su delicioso sabor. Consiste en tiras de calamares, previamente limpios y cortados en anillos, que se rebozan en una masa ligera y crujiente, hecha generalmente con harina, huevo, sal y a menudo un toque de levadura en polvo para obtener una textura más esponjosa.',
         ingredientes:[
         "500 g de calamares limpios",
         "1 taza de harina de trigo",
@@ -556,18 +595,18 @@ export const platos = [
         "Rodajas de limón (para servir)",
         "Ramitas de perejil fresco (para decorar)"
         ],
-        preparacion:`Si no los has comprado ya limpios, asegúrate de limpiar los calamares eliminando las entrañas y la piel exterior. Luego, córtalos en anillos de aproximadamente 1 cm de grosor.
-                     En un tazón poco profundo, bate los huevos junto con un poco de sal y pimienta negra molida.
-                     En otro tazón poco profundo, coloca la harina de trigo.
-                     Pasa los anillos de calamar por la harina de trigo, asegurándote de que estén bien cubiertos.
-                     Luego, sumerge los calamares enharinados en la mezcla de huevo batido, asegurándote de cubrirlos completamente con el huevo.
-                     Calienta abundante aceite vegetal en una sartén grande a fuego medio-alto.
-                     Cuando el aceite esté caliente pero no humeante, fríe los calamares en lotes pequeños para evitar que se amontonen en la sartén.
-                     Fríe los calamares durante aproximadamente 2-3 minutos, o hasta que estén dorados y crujientes.
-                     Usa una espumadera para transferir los calamares fritos a un plato forrado con papel absorbente para eliminar el exceso de aceite.
-                     Sirve los calamares a la romana caliente, acompañados de rodajas de limón y decorados con ramitas de perejil fresco.
-        `,
-        precio: 230000 
+        preparacion:`
+        "Si no los has comprado ya limpios, asegúrate de limpiar los calamares eliminando las entrañas y la piel exterior. Luego, córtalos en anillos de aproximadamente 1 cm de grosor."
+        "En un tazón poco profundo, bate los huevos junto con un poco de sal y pimienta negra molida."
+        "En otro tazón poco profundo, coloca la harina de trigo."
+        "Pasa los anillos de calamar por la harina de trigo, asegurándote de que estén bien cubiertos."
+        "Luego, sumerge los calamares enharinados en la mezcla de huevo batido, asegurándote de cubrirlos completamente con el huevo."
+        "Calienta abundante aceite vegetal en una sartén grande a fuego medio-alto."
+        "Cuando el aceite esté caliente pero no humeante, fríe los calamares en lotes pequeños para evitar que se amontonen en la sartén."
+        "Fríe los calamares durante aproximadamente 2-3 minutos, o hasta que estén dorados y crujientes."
+        "Usa una espumadera para transferir los calamares fritos a un plato forrado con papel absorbente para eliminar el exceso de aceite."
+        "Sirve los calamares a la romana caliente, acompañados de rodajas de limón y decorados con ramitas de perejil fresco."`,
+        precio: "230.000 "
     },
 
 ]

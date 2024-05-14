@@ -7,7 +7,8 @@ platos.map(item => {
         <div class="contenedor">
             <div class="info-plato">
                 <strong>${item.nombre}</strong>
-                <span>${item.ingredientes[0]}</span>
+                <span>${item.descripcion}</span>
+                <strong>${item.precio} COP</strong>
             </div>
             <div class="img-plato-container">
                 <img src="../IMG/img_platos/${item.id}.jpeg" alt="${item.nombre}">

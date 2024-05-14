@@ -1,0 +1,45 @@
+@import "mainCSS/colores.css";
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    background-color: var(--color-1);
+}
+h2{
+    margin: 10px;
+}
+.contenedor-recetas{
+    width: 100%;
+    /* padding: 40px 0; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.receta{
+    width: 300px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.receta img{
+    height: 150px;
+}
+.boton-ver-receta{
+    background-color: beige;
+    text-decoration: none;
+    width: 120px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+    padding: 5px;
+    transition: all .3s;
+}
+.boton-ver-receta:hover{
+    transform: scale(1.2);
+}
