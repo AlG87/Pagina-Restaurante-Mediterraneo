@@ -7,8 +7,8 @@ $seccion1.innerHTML = `
     <img src="IMG/img_platos/${platos[0].id}.jpeg" class="plato-promocional-img" alt="${platos[0].nombre}">
     <div class="contenedor-contenido">
         <h3>${platos[0].nombre}</h3>
-        <p>descripcion</p>
-        <a href="paginas/menu/${platos[0].id}.html">
+        <p>${platos[0].descripcion}</p>
+        <a href="paginas/recetas/${platos[0].id}.html">
             <button class="boton-ver-receta">Ver plato</button>
         </a>
     </div>
@@ -17,8 +17,8 @@ $seccion2.innerHTML = `
     <img src="IMG/img_platos/${platos[1].id}.jpeg" class="plato-promocional-img" alt="${platos[1].nombre}">
     <div class="contenedor-contenido">
         <h3>${platos[1].nombre}</h3>
-        <p>descripcion</p>
-        <a href="paginas/menu/${platos[1].id}.html">
+        <p>${platos[1].descripcion}</p>
+        <a href="paginas/recetas/${platos[1].id}.html">
             <button class="boton-ver-receta">Ver plato</button>
         </a>
     </div>
@@ -33,7 +33,6 @@ for(let i = 2;i < 8;i++){
         </div>
         <div class="contenedor-info-platos">
             <h4>${platos[i].nombre}</h4>
-            <p>descripccion del plato</p>
         </div>
         </div>
     `

@@ -12,6 +12,9 @@ section{
     align-items: center;
     justify-content: space-around;
 }
+.plato-1 p{
+    width: 400px;
+}
 .plato-promocional-img{
     height: 400px;
 }
@@ -21,6 +24,9 @@ section{
     align-items: center;
     justify-content: space-around;
     text-align: right;
+}
+.plato-2 p{
+    width: 400px;
 }
 .contenedor-contenido{
     height: 200px;
@@ -54,6 +60,7 @@ section{
 }
 .contenedor-platos{
     display: grid;
+    /* column-gap: 100px; */
     grid-template-columns: repeat(3,1fr);
     height: 700px;
 }
@@ -71,6 +78,9 @@ section{
     flex-direction: column;
     height: 80px;
     justify-content: space-evenly;
+}
+.contenedor-info-platos h4{
+    font-size: larger;
 }
 .boton-receta-menu{
     width: 150px;

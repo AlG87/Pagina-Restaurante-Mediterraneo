@@ -3,7 +3,7 @@ export const platos = [
         id: "humus-con-pan-pita",
         nombre: "Hummus con pan pita",
         descripcion: `es un plato delicioso y saludable originario de Oriente Medio que ha ganado popularidad en todo el mundo. 
-         en una mezcla cremosa de puré de garbanzos cocidos, tahini (pasta de semillas de sésamo), jugo de limón, ajo, sal y aceite de oliva. 
+         en una mezcla cremosa de puré de garbanzos cocidos, tahini, jugo de limón, ajo, sal y aceite de oliva. 
          Esta mezcla se sirve tradicionalmente con pan pita, que es un pan de forma redonda y delgada, 
          horneado para que quede esponjoso por dentro y crujiente por fuera.`,
         ingredientes: [
@@ -511,7 +511,7 @@ export const platos = [
     {
         id:"moussaka",
         nombre:"moussaka",
-        descripcion:`Esta deliciosa cazuela consiste en capas de berenjenas rebanadas, carne picada (generalmente de cordero o ternera), tomates, cebollas 
+        descripcion:`Esta deliciosa cazuela consiste en capas de berenjenas rebanadas, carne picada, tomates, cebollas 
         y a menudo papas, todo ello cubierto con una rica bechamel y horneado hasta que esté dorado y burbujeante.`,
         ingredientes:[
             "berenjenas grandes",
@@ -584,7 +584,7 @@ export const platos = [
     {
         id:"Calamares-a-la-Romana",
         nombre:"Calamares a la Romana",
-        descripcion:'clásico de la cocina italiana, conocido por su simplicidad y su delicioso sabor. Consiste en tiras de calamares, previamente limpios y cortados en anillos, que se rebozan en una masa ligera y crujiente, hecha generalmente con harina, huevo, sal y a menudo un toque de levadura en polvo para obtener una textura más esponjosa.',
+        descripcion:'Conocido por su simplicidad y su delicioso sabor. Consiste en tiras de calamares, previamente limpios y cortados en anillos, que se rebozan en una masa ligera y crujiente, hecha generalmente con harina, huevo, sal y a menudo un toque de levadura en polvo para obtener una textura más esponjosa.',
         ingredientes:[
         "500 g de calamares limpios",
         "1 taza de harina de trigo",
