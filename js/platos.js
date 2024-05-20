@@ -531,18 +531,14 @@ export const platos = [
         ],
         preparacion:`
         Precalienta el horno a 200°C (390°F).
-        Corta las berenjenas en rodajas de aproximadamente 1 cm de grosor. Espolvorea sal sobre las rodajas de berenjena y déjalas reposar durante unos 30 minutos para que suden y pierdan su amargor. Luego, enjuágalas bajo agua fría y sécalas con papel de cocina.      
+        Cortar berenjenas en rodajas de aproximadamente 1 cm de grosor. Espolvorea sal sobre las rodajas de berenjena y déjalas reposar durante unos 30 minutos para que suden y pierdan su amargor. Luego, enjuágalas bajo agua fría y sécalas con papel de cocina.      
         Coloca las rodajas de berenjena en una bandeja para hornear previamente engrasada con aceite de oliva. Pincela cada rodaja con un poco más de aceite de oliva y hornéalas durante unos 20-25 minutos o hasta que estén doradas y tiernas. Retira del horno y reduce la temperatura a 180°C (350°F).
         Mientras las berenjenas se están horneando, prepara la carne. En una sartén grande, calienta un poco de aceite de oliva a fuego medio-alto. Agrega la cebolla picada y el ajo, y cocina hasta que estén dorados y fragantes.
-        Agrega la carne picada a la sartén y cocina hasta que esté bien dorada y cocida.
-        Agrega los tomates triturados, la canela, el orégano, la sal y la pimienta a la sartén. Cocina a fuego lento durante unos 10-15 minutos, revolviendo ocasionalmente, hasta que la salsa espese ligeramente. Retira del fuego y reserva.
+        Agrega la carne picada a la sartén y cocina hasta que esté bien dorada y cocida, Agrega los tomates triturados, la canela, el orégano, la sal y la pimienta a la sartén. Cocina a fuego lento durante unos 10-15 minutos, revolviendo ocasionalmente, hasta que la salsa espese ligeramente. Retira del fuego y reserva.
         Mientras tanto, prepara la salsa bechamel. En una cacerola, derrite la mantequilla a fuego medio. Agrega la harina y revuelve constantemente durante 1-2 minutos para formar un roux.
         Poco a poco, agrega la leche caliente mientras revuelves constantemente para evitar la formación de grumos. Continúa cocinando y revolviendo hasta que la salsa se espese y tenga una consistencia suave y cremosa.
         Retira la salsa bechamel del fuego y sazona con sal, pimienta y nuez moscada al gusto. Si lo deseas, puedes batir un huevo y agregarlo a la salsa bechamel para hacerla aún más cremosa (este paso es opcional).
-        Ahora es el momento de armar la moussaka. En un molde para horno engrasado, coloca una capa de rodajas de berenjena asada en el fondo. Luego, agrega una capa de la mezcla de carne sobre las berenjenas. Repite estas capas hasta que todos los ingredientes estén usados, terminando con una capa de berenjena.
-        Vierte la salsa bechamel sobre la capa superior de berenjena, asegurándote de cubrir toda la superficie.
-        Hornea la moussaka en el horno precalentado a 180°C (350°F) durante unos 45-50 minutos o hasta que esté dorada y burbujeante en la parte superior.
-        Retira del horno y deja reposar durante unos minutos antes de servir.`,
+        `,
         precio: "12.000 "
     },
     {
