@@ -1,0 +1,49 @@
+main{
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form{
+    padding: 50PX 55PX;
+    box-shadow:  0 0 20PX rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+
+
+}
+.intput-group{
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+h2{
+    color: #283629;
+    font-size: 35px;
+}
+label{
+
+    color: #283629;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #Edfff0;
+    border: 2px solid #fbfaf1;
+
+}
+input::placeholder,textarea::placeholder{
+    color: #b5cab6;
+}
